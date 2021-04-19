@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1d262d;
+  padding: 20px 50px;
+  border-top: 2px solid rgba(79, 77, 80, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  left: 20px;
+  bottom: 17px;
+  animation: notificationAnimation 2s ease-in-out infinite;
+}
+
+.nav__notification--two {
+  background-color: var(--lime);
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 32px;
+  bottom: 30px;
+}
+.nav__button i:first-child {
+  width: 42px;
+}
+
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: none;
+  }
+}

@@ -1,0 +1,31 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  padding-top: 45px;
+  width: 100%;
+  background-color: var(--gray);
+  margin-bottom: 15px;
+}
+
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.screen-header__title:hover {
+  cursor: pointer;
+  color: var(--lime);
+  transition: 0.5s;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
+}
+
+.screen-header__icons span:hover {
+  cursor: pointer;
+  color: tomato;
+  transition: 0.5s;
+}

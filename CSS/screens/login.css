@@ -1,0 +1,137 @@
+.niko-header {
+  margin: 80px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.niko-header__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  transition: color 0.5s ease-in-out;
+}
+
+.niko-header__title:hover {
+  animation: heartbeat 3s ease-in-out infinite both;
+  animation-delay: 1s;
+  cursor: pointer;
+  color: var(--lime);
+}
+
+.niko-header__text {
+  width: 70%;
+  font-size: 13px;
+  font-weight: 300;
+  opacity: 0.3;
+  line-height: 150%;
+}
+
+.photo {
+  height: 300px;
+  margin: -50px 0 20px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo-box img {
+  height: 300px;
+}
+
+.photo-box:last-child {
+  position: relative;
+  top: 15px;
+  left: -70px;
+}
+
+.photo i {
+  color: var(--lime);
+  animation: rotation 3s ease-in-out infinite both;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+
+#login-form input {
+  padding: 30px 0;
+  margin-bottom: 25px;
+  caret-color: white;
+  border: none;
+  color: white;
+}
+
+#login-form input::placeholder {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+#login-form input[type="submit"] {
+  background-color: var(--lime);
+  color: var(--gray);
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid whitesmoke;
+  transition: border-color 0.5s ease-in-out;
+  background-color: var(--gray);
+}
+
+#login-form input:focus {
+  border-color: var(--lime);
+  color: white;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(90);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  750% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
