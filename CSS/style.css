@@ -27,10 +27,14 @@
 }
 
 body {
-  height: 130vh;
+  height: 100vh;
   background-color: var(--gray);
   font-family: "Open Sans", sans-serif;
   color: white;
+}
+
+.body-height {
+  height: 130vh;
 }
 
 .main-screen {
