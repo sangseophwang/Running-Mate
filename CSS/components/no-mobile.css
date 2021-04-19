@@ -1,7 +1,7 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: 90px;
+bottom: 150px;
   left: 0;
 }
 
@@ -26,11 +26,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+
+  height: 110vh;
   width: 100vw;
   top: 0;
 }
 
+#spalsh-screen photo-box {
+  margin-left: 50px;
 #splash-screen i {
   color: var(--lime);
   margin-bottom: 270px;
