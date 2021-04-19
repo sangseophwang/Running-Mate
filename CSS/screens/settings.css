@@ -1,0 +1,43 @@
+.settings-list {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.setting-list:first-child {
+  border-bottom: var(--border);
+}
+
+.settings__setting {
+  padding: 20px 0;
+  transition: 0.2s;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: 0.4s;
+  color: var(--lime);
+}
+
+.settings-gray {
+  opacity: 0.5;
+}
+
+.setting-father {
+  position: relative;
+}
+
+.setting-new {
+  position: absolute;
+  left: 70px;
+  bottom: 0.5px;
+}

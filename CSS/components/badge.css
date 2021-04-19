@@ -1,0 +1,35 @@
+.badge {
+  background-color: var(--lime);
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.badge-father {
+  position: relative;
+}
+
+.badge-dot {
+  background-color: var(--lime);
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 21px;
+  bottom: 19px;
+}
+
+.badge-dot__two {
+  background-color: var(--lime);
+  width: 5px;
+  height: 5px;
+  border-radius: 2.5px;
+  position: absolute;
+  left: 30px;
+  bottom: 41px;
+}

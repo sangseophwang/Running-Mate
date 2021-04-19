@@ -1,0 +1,73 @@
+.ad {
+  height: 75px;
+  width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  color: var(--gray);
+  margin-top: -15px;
+  margin-bottom: 20px;
+  position: relative;
+  padding: 18px;
+}
+
+.ad:hover {
+  color: tomato;
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.ad-img {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  right: 0;
+  margin-right: 50px;
+  margin-top: -45px;
+}
+
+.ad-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ad-text {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 15px;
+  opacity: 0.5;
+}
+
+.ad-blue {
+  color: #3a87d2;
+  opacity: 0.8;
+  position: absolute;
+  right: 0;
+  margin-right: 13px;
+  margin-top: -50px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.chat {
+  margin-top: 15px;
+}
+
+.chat-title {
+  font-size: 18px;
+  word-spacing: 3px;
+}
+
+.chat-member {
+  opacity: 0.3;
+  font-size: 14px;
+}
+
+.chat-time {
+  margin-bottom: 30px;
+}
+
+.chat-group__image--source {
+  height: 27px;
+  width: 27px;
+  border-radius: 5px;
+}

@@ -1,0 +1,77 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  color: lightgray;
+  background-color: #1d262d;
+  padding: 15px 0px;
+  font-size: 17px;
+  word-spacing: 1px;
+  margin-top: -10px;
+  margin-bottom: 5px;
+  transition: 0.5s;
+}
+
+#friends-display-link:hover {
+  cursor: pointer;
+  color: var(--lime);
+  transition: 0.5s;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel-header {
+  padding-top: 15px;
+  border-top: var(--border);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: lightgray;
+}
+
+.friends-screen__channel-header:hover {
+  cursor: pointer;
+}
+
+.friend-seop {
+  transition: 0.5s;
+}
+
+.friend-seop:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.5s;
+  color: var(--lime);
+}
+
+.friends {
+  margin: 20px 0;
+}
+
+h6 {
+  letter-spacing: 0.3px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(-700px) rotateY(-30deg) scale(6.5);
+    transform-origin: 200% 50%;
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotateY(0) scale(1);
+    transform-origin: -350px 50%;
+    opacity: 1;
+  }
+}
