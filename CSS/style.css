@@ -27,7 +27,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 80vh;
   background-color: var(--gray);
   font-family: "Open Sans", sans-serif;
   color: white;
