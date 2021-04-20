@@ -34,7 +34,11 @@ body {
 }
 
 .body-height {
-  height: 130vh;
+  height: 140vh;
+}
+
+.body-height__more {
+  height: 110vh;
 }
 
 .main-screen {

@@ -1,7 +1,7 @@
 #no-mobile {
   position: absolute;
   z-index: 99;
-  height: 130vh;
+  height: 180vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -16,13 +16,14 @@
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: 550px;
+  bottom: 800px;
   left: 0;
 }
 
 #no-mobile span {
   position: absolute;
-  left: 450px;
+  left: 400px;
+  bottom: 860px;
 }
 
 #splash-screen {
@@ -31,10 +32,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  height: 105vh;
+  height: 130vh;
   width: 100vw;
-  top: 0;
+  top: -100px;
+  left: 5px;
 }
 
 #spalsh-screen photo-box {
